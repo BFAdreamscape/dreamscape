@@ -1,11 +1,31 @@
+html {
+  background-color: white;
+}
 body,h1,h2,h3,h4,h5 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Staatliches", cursive;
 }
 .w3-quarter img {
-  /* margin-bottom: -6px; */
+  margin-bottom: -6px;
+  opacity: 0.8;
   cursor: pointer;
 }
 .w3-quarter img:hover {
-  opacity: 0.5;
-  transition: 0.3s;
+  opacity: 1;
+}
+.artistNameLink {
+  display: none;
+}
+.logo {
+  width: 100%;
+  padding: 30px;
+}
+a {
+  font-family: "Staatliches", cursive;
+  font-size: 24px;
+  color: #ff7bac;
+}
+h4, .w3-myFont {
+  font-family: "Staatliches", cursive;
+  font-size: 24px;
+  color: white;
 }
