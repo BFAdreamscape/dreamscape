@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body class="w3-white w3-content" style="max-width:1600px">
+<body class="w3-white w3-content" style="max-width:100%">
 
 <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-bar-block w3-white w3-animate-top w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
@@ -149,7 +149,7 @@ function w3_close() {
 
 // Modal Image Gallery
 function onClick(element) {
-  document.getElementById("img01").src = element.src;
+  // document.getElementById("img01").src = element.src;
   document.getElementById("modal01").style.display = "block";
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;

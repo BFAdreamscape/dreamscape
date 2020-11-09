@@ -1,16 +1,27 @@
 html {
-  background-color: white;
+  background-color:black;
+  /* background-color: white; */
 }
 body,h1,h2,h3,h4,h5 {
   font-family: "Staatliches", cursive;
 }
 .w3-quarter img {
-  margin-bottom: -6px;
-  opacity: 0.8;
+  /* margin-bottom: -6px; */
+  opacity: 1;
   cursor: pointer;
+  transition: opacity 0.5s;
 }
 .w3-quarter img:hover {
-  opacity: 1;
+  opacity: 0.8;
+}
+.w3-half img {
+  /* margin-bottom: -6px; */
+  opacity:1;
+  cursor: pointer;
+  transition: opacity 0.5s;
+}
+.w3-half img:hover {
+  opacity: 0.8;
 }
 .artistNameLink {
   display: none;
@@ -30,4 +41,13 @@ h4, .w3-myFont {
   font-size: 24px;
   color: white;
   text-decoration:none;
+}
+a h5 {
+  font-family: "Staatliches", cursive;
+  font-size: 28px;
+  color:#0d3754;
+  transition: opacity 0.5s;
+}
+a h5:hover {
+  opacity:0.3;
 }
