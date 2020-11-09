@@ -23,9 +23,11 @@ a {
   font-family: "Staatliches", cursive;
   font-size: 24px;
   color: #ff7bac;
+  text-decoration:none;
 }
 h4, .w3-myFont {
   font-family: "Staatliches", cursive;
   font-size: 24px;
   color: white;
+  text-decoration:none;
 }
