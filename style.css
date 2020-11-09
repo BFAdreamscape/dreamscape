@@ -51,3 +51,10 @@ a h5 {
 a h5:hover {
   opacity:0.3;
 }
+h6, .w3-myFont2 {
+  padding:1em;
+  font-family: "Staatliches", cursive;
+  font-size: 24px;
+  color: white;
+  text-decoration:none;
+}
