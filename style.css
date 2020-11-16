@@ -58,3 +58,20 @@ h6, .w3-myFont2 {
   color: white;
   text-decoration:none;
 }
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+ video {
+   width: 100%;
+   padding:0px;
+   margin:0px;
+ }
+ .aboutSection {
+   width: 60%;
+ }
+
+ @media screen and (max-width: 800px)  {
+   .aboutSection {
+     width: 90%;
+   }
+ }
