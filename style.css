@@ -60,11 +60,21 @@ h6, .w3-myFont2 {
 }
 p {
   font-family: 'Montserrat', sans-serif;
+  font-size:18px;
 }
  video {
    width: 100%;
    padding:0px;
    margin:0px;
+ }
+ sub {
+   color:#ff7bac;
+   opacity:1;
+   transition: opacity 0.3s;
+ }
+ sub:hover {
+   transition: opacity 0.5s;
+   opacity:0.7;
  }
  .aboutSection {
    width: 60%;
