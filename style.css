@@ -79,6 +79,9 @@ p {
  .aboutSection {
    width: 60%;
  }
+ .aboutSection img {
+   width: 100%;
+ }
 
  @media screen and (max-width: 800px)  {
    .aboutSection {
