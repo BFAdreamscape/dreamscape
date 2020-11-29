@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hunger</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"> -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+</head>
+
+<body class="w3-white w3-content" style="max-width:100%">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-animate-top w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a class="w3-padding-64 w3-center" href="../index.html"><img class="logo" src="../images/DreamLogo19.png" alt="logo png"></a>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-hide-large"><h5 style="color:grey">CLOSE</h5></a>
+  <a href="../index.html" onclick="w3_close()" style="color:#0d3754;"><h5>GALLERIES</h5></a>
+  <a href="../index.html#about" onclick="w3_close()" style="color:#0d3754;"><h5>ABOUT</h5></a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+  <span class="w3-left w3-padding">Hunger</span>
+  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+
+  <!-- Photo grid -->
+    <div class="w3-row">
+      <div class="w3-quarter">
+        <a href="../images/yun/homepage_image_yunche_hsieh.png"><img src="../images/yun/homepage_image_yunche_hsieh.png" style="width:100%" onclick="onClick(this)" alt="documentation image 1"></a>
+      </div>
+      <div class="w3-quarter">
+        <a href="../images/yun/yunche_1.png"><img src="../images/yun/yunche_1.png" style="width:100%" onclick="onClick(this)" alt="documentation image 2"></a>
+      </div>
+      </div>
+    </div>
+
+  <!-- Artist Name -->
+  <!-- About section -->
+  <div class="w3-container w3-center w3-text-light-grey w3-padding-32" id="about" style="background-color:#0d3754;">
+    <!-- <h4 class="w3-myFont"><b>About</b></h4> -->
+    <div class="w3-content w3-justify aboutSection">
+      <h4 class="w3-myFont">Yun Che Hsieh</h4>
+      <h4 class="w3-myFont">Hunger</h4>
+      <p>My work focuses on video editing and web development. Life is always hard whenever I think of it. It is the same as thinking of being an artist in the future. What am I going to focus on in terms of art? Am I able to have a stable income from becoming an artist? What are the obstacles during the process of becoming an artist? All of these factors gave me fear since the first year of community college. I was focusing on learning what graphic design really is. However, the only thing I wished to know is “Am I able to make money out of it?” I did not care about what art really is. Instead, I kept sharpening my skill in utilizing Adobe software and accomplished some portfolio level art projects. The answer I desired never came at me and all I had was piles of meaningless blank posters and wasted eleven times seventeen papers.<br><br>Personally, doing all those infinite printing, constantly picking on extremely small details and most importantly I could not examine the beauty behind typefaces. On my second thought, what would happen if I tried to make projects I like more enjoyable for everyone to see? After a couple of years of hard work and transferred to San Jose State University, I learned to enjoy making art instead of thinking about making money, and not worry about sharing my work with people. Basically, I am trying to be optimistic rather than pessimistic.</p>
+
+      <h4 class="w3-myFont">Hunger (New Art City):
+        <a href="https://newart.city/show/yunchehsieh"><sub> (Link to New Art City)</sub></a>
+      </h4>
+      <h4 class="w3-myFont">Portfolio:
+        <a href="https://jerrygood00.github.io/"><sub>https://jerrygood00.github.io/</sub></a>
+      </h4>
+      <h4 class="w3-myFont">Email:
+        <a href="jerrygood1010@gmail.com"><sub>jerrygood1010@gmail.com</sub></a>
+      </h4>
+
+
+    </div>
+  </div>
+
+  <div class="w3-black w3-center w3-padding-24">
+    <p style="padding:10px;">© 2020. All Rights Reserved</p>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+
+
+</body>
+</html>
