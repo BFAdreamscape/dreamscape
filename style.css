@@ -82,6 +82,17 @@ p {
  .aboutSection img {
    width: 100%;
  }
+ p a {
+   font-family: 'Montserrat', sans-serif;
+   font-size:18px;
+   color:#ff7bac;
+   opacity:1;
+   transition: opacity 0.3s;
+ }
+ p a:hover {
+   transition: opacity 0.5s;
+   opacity:0.7;
+ }
 
  @media screen and (max-width: 800px)  {
    .aboutSection {
