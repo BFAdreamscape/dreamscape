@@ -13,7 +13,7 @@ Though the work is diverse in many ways, all projects are a testament to our cap
 * Andrew Blanton
 * Lark Alder
 
-### Artists Involved:
+### Artists Featured:
 * Aaron Josh Vietvu
 * Alan Garcia Ruiz
 * Andy Wu
