@@ -2,7 +2,7 @@
 ## BFA Show Class of 20' (~~COVID-19 can't stop~~ us.)
 
 ## Link to the Dreamscape Exhibition: https://newart.city/show/sjsu-bfa
-## Link to the Dreamscape Website: https://bfadreamscape.github.io/dreamscape/
+## Link to the Dreamscape Website: https://dreamscape.cadre.sjsu.edu/
 
 ### Dreamscape Exhibition Description:
 Rather than focusing on what is not possible during this time of uncertainty, Dreamscape emphasizes the potential for the emergence of new and diverse ideas as we adapt to the global pandemic.
